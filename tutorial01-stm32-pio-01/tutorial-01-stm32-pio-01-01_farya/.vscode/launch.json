@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Users/faryafarhang/Documents/PlatformIO/Projects/stm32.led/.pio/build/genericSTM32F446RE/firmware.elf",
+            "projectEnvName": "genericSTM32F446RE",
+            "toolchainBinDir": "/Users/faryafarhang/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/faryafarhang/.platformio/platforms/ststm32/misc/svd/STM32F446x.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Users/faryafarhang/Documents/PlatformIO/Projects/stm32.led/.pio/build/genericSTM32F446RE/firmware.elf",
+            "projectEnvName": "genericSTM32F446RE",
+            "toolchainBinDir": "/Users/faryafarhang/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/faryafarhang/.platformio/platforms/ststm32/misc/svd/STM32F446x.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/Users/faryafarhang/Documents/PlatformIO/Projects/stm32.led/.pio/build/genericSTM32F446RE/firmware.elf",
+            "projectEnvName": "genericSTM32F446RE",
+            "toolchainBinDir": "/Users/faryafarhang/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/faryafarhang/.platformio/platforms/ststm32/misc/svd/STM32F446x.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
