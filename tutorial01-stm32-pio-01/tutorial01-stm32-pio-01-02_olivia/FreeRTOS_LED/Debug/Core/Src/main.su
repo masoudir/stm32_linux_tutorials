@@ -1,7 +1,5 @@
-../Core/Src/main.c:37:5:main	72	static
-../Core/Src/main.c:75:6:SystemClock_Config	88	static
-../Core/Src/main.c:124:13:MX_GPIO_Init	48	static
-../Core/Src/main.c:160:6:StartDefaultTask	16	static
-../Core/Src/main.c:178:6:StartTask02	16	static
-../Core/Src/main.c:189:6:blinkaled	8	static
-../Core/Src/main.c:200:6:Error_Handler	4	static,ignoring_inline_asm
+../Core/Src/main.c:38:5:main	72	static
+../Core/Src/main.c:75:13:MX_GPIO_Init	32	static
+../Core/Src/main.c:104:6:StartDefaultTask	16	static
+../Core/Src/main.c:123:6:StartTask02	16	static
+../Core/Src/main.c:140:6:blinkaled	8	static
