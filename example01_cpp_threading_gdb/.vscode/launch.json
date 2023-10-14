@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "GDB",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/skanjet_demo",
+      "MIMode": "gdb",
+    },
+    {
+      "name": "(lldb) Debug binary_tree",
+      "type": "cppdbg",
+      "request": "launch",
+      "preLaunchTask": "build binary_tree",        // make sure latest build is compiled before debugging
+      "program": "${workspaceFolder}/skanjet_demo",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+  },
+  ]
+}
