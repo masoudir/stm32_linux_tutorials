@@ -1,0 +1,1 @@
+g++ -g main.cpp main.h app4.cpp app4.h -pthread -L/usr/local/lib -I/usr/local/include/modbus -lmodbus  -o skanjet_demo
